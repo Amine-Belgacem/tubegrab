@@ -1,6 +1,10 @@
 # TubeGrab
 
-A native Windows application for downloading YouTube videos and playlists as MP4 video or MP3 audio. Built with C++17 and Win32, using yt-dlp and FFmpeg for media processing.
+TubeGrab provides a native Windows interface for saving YouTube videos and playlists as MP4 video or MP3 audio. Analyze a link, select the entries you want, choose format and quality, and manage the work through a queue instead of constructing a separate command for each download.
+
+Playlist selection helps avoid downloading unwanted entries, and the queue, history, and interrupted-job state make longer batches easier to follow. Completed output is checked with ffprobe before being recorded as successful. MP4 selection targets H.264 video and AAC audio for compatibility, subject to what the source offers.
+
+TubeGrab is built with C++17 and Win32; yt-dlp, FFmpeg, ffprobe, and Deno provide the external media-processing tools. Use it for content you are authorized to save.
 
 ## Features
 
