@@ -6,6 +6,10 @@ Playlist selection helps avoid downloading unwanted entries, and the queue, hist
 
 TubeGrab is built with C++17 and Win32; yt-dlp, FFmpeg, ffprobe, and Deno provide the external media-processing tools. Use it for content you are authorized to save.
 
+![Screenshot of tubegrab](images/screenshot.png)
+
+*TubeGrab’s actual native controls, rendered by the included UI test harness with a sample playlist and queue. Progress values are sample data.*
+
 ## Features
 
 - Analyze a video or playlist and choose the entries to download.
